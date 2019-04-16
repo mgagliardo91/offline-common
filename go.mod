@@ -12,3 +12,5 @@ require (
 	golang.org/x/crypto v0.0.0-20190411191339-88737f569e3a // indirect
 	golang.org/x/sys v0.0.0-20190416124237-ebb4019f01c9 // indirect
 )
+
+replace github.com/mgagliardo91/go-utils => ../go-utils
