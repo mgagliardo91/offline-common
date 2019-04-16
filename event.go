@@ -20,9 +20,7 @@ type OfflineEvent struct {
 	EventID       string   `json:"eventId"`
 	ID            string   `json:"id"`
 	ImageURL      string   `json:"imageUrl"`
-	Latitude      float64  `json:"lat"`
 	Location      Location `json:"location"`
-	Longitude     float64  `json:"lng"`
 	OfflineURL    string   `json:"offlineUrl"`
 	Price         float64  `json:"price"`
 	ReferralURLs  []string `json:"referralUrls"`
